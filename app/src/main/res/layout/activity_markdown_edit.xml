@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editMarkdownLayout"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editMarkdownText"
+        android:hint="Редактируйте Markdown здесь"
+        android:gravity="top"
+        android:minLines="10"
+        android:maxLines="100"
+        android:inputType="textMultiLine|textCapSentences"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:text="Сохранить и вернуться"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
